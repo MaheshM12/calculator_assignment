@@ -42,7 +42,7 @@
         background-color: azure;
         box-shadow: 1px 2px black;
        }
-       .bt{
+       #bt{
         border: 2px solid black;
         border-radius: 3px;
         width: 46px;
@@ -52,7 +52,7 @@
         background-color:rgb(238, 156, 33);
         box-shadow: 1px 2px black;
        }
-       .bt12{
+       #b12{
         border: 2px solid black;
         border-radius: 3px;
         text-align: center;
@@ -62,35 +62,41 @@
         box-shadow: 1px 2px black;
 
        }
+       .display input{
+        height:60px ;
+        width: 180px;
+        margin:2%;
+       }
+       
     </style>
 </head>
 <body>
  
     <div class="container">
         <div class="display">
-          <p>  1234</p>
+         <input type="text" name="screen" id="screen">
         </div>
         <div class="buttons">
-            <div class="bt1">1</div>
-            <div class="bt1">2</div>
-            <div class="bt1">3</div>
-            <div class="bt1">4</div>
-            <div class="bt1">5</div>
-            <div class="bt1">6</div>
-            <div class="bt1">7</div>
-            <div class="bt1">8</div>
-            <div class="bt1">9</div>
-            <div class="bt1">0</div>
-            <div class="bt1">/</div>
-            <div class="bt1">-</div>
-            <div class="bt1">+</div>
-            <div class="bt1">*</div>
-            <div class="bt">C</div>
-            <div class="bt">=</div>
-            <div class="bt12">.</div>
-            <div class="bt12">%</div>
+            <button class="bt1" id="1">1</button>
+            <button class="bt1"  id="2">2</button>
+            <button class="bt1"  id="3">3</button>
+            <button class="bt1"  id="4">4</button>
+            <button class="bt1"  id="5">5</button>
+            <button class="bt1"  id="6">6</button>
+            <button class="bt1"  id="7">7</button>
+            <button class="bt1"  id="8">8</button>
+            <button class="bt1"  id="9">9</button>
+            <button class="bt1"  id="0">0</button>
+            <button class="bt1"  id="divide">/</button>
+            <button class="bt1"  id="subtract">-</button>
+            <button class="bt1"  id="addition">+</button>
+            <button class="bt1"  id="multiply">*</button>
+            <button id="bt"  class="bt1" >C</button>
+            <button id="bt"  class="bt1" >=</button>
+            <button id="b12"   class="bt1">.</button>
+            <button id="b12"  class="bt1">%</button>
            
-           
+           <script src="./index.js"></script>
            
         </div>
     </div>
